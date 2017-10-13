@@ -1,0 +1,16 @@
+/*
+ * at91sam9g20isis.dts - Device Tree file for Kubos Linux on ISIS iOBC board (at91sam9g20isis)
+ *
+ * Copyright (C) 2017 Kubos Corporation
+ *
+ * Licensed under GPLv2.
+ * 
+ * Author: Catherine Garabedian <catherine@kubos.co>
+ *
+ * This file simply includes the common device tree configuration.
+ * The files were split this way so that the licensed version could
+ * include the common file and then build upon it.
+ */
+/dts-v1/;
+#include "iobc-common.dtsi"
+
